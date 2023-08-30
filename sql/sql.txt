@@ -1,0 +1,5 @@
+create table company(id integer(100) primary key auto_increment, name varchar(30), type varchar(30), address varchar(200), number varchar(11),website varchar(100))
+
+
+
+CREATE TABLE student(id integer(100) PRIMARY KEY AUTO_INCREMENT, uname varchar(100), fname varchar(100), lname varchar(100), email varchar(100), phone varchar(11), course varchar(100), percentage varchar(10));

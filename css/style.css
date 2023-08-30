@@ -1,0 +1,6 @@
+body {
+	background: #202020;
+}
+input[type="password"] {
+	background: grey;
+}

@@ -1,0 +1,111 @@
+$myfont: montserrat;
+$colors:(
+    primary: #95F62F,
+    secondary: #63A41F,
+    backcolor: white,
+    f-color: grey,
+    s-color: white,
+    s-back: #414141
+);
+@function color($cname) {
+    @return map-get($colors, $cname);
+}
+* {
+	font-family: $myfont;
+}
+body {
+	margin: 0;
+    padding: 0;
+    width: 100%;
+	background: color(backcolor);
+    color: color(f-color);
+    .wrap {
+        height: 200vh;
+        width: 100vw;
+        background: url('images/mybg.png');
+        background-size: cover;
+    }
+    h1 {
+        position: absolute;
+        margin-top: -1100px;
+        margin-left: 110px;
+        font-size: 47px;
+        text-align: center;
+        span {
+            color: color(primary);
+        }
+    }
+    .para {
+        margin-top: -497px;
+        p {
+            padding: 100px 50px;
+        }
+    }
+    img {
+        position: absolute;
+    }
+    #clip {
+        width: 1854.47px;
+        height: 2089.6px;
+        margin-top: -450px;
+        margin-left: -8%;
+        position: absolute;
+    }
+    #jump {
+        margin-left: 61%;
+        margin-top: 200px;
+    }
+    #logo {
+        margin-top: 10px;
+        margin-left: 10px;
+        cursor: pointer;
+    }
+    nav {
+        position: absolute;
+        top: 0px;
+        left: 28%;
+    }
+    ul {
+        font-size: 14px;
+        list-style: none;
+        display: flex;
+    }
+    li {
+        margin-left: 20px;
+    }
+    a {
+        text-decoration: none;
+        color: color(f-color);
+        transition: 0.3s ease;
+    }
+    a:hover {
+        color: color(primary);
+        transition: 0.3s ease;
+    }
+    a.active {
+        font-weight: bold;
+    }
+    button:hover {
+        background: color(s-back);
+        color: color(s-color);
+        transition: 0.4s ease;
+    }
+    a.btn {
+        font-size: 13px;
+        position: relative;
+        font-weight: bold;
+        margin-top: -5px;
+        margin-left: 15px;
+        border: 1px solid color(primary);
+        // background: linear-gradient(color(primary), color(secondary));
+        color: color(primary);
+        padding: 5px 10px;
+        border-radius: 50px;
+        transition: 0.4s ease;
+    }
+    a.btn:hover {
+        background: color(primary);
+        transition: 0.4s ease;
+        color: color(backcolor);
+    }
+}    

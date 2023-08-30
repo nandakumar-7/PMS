@@ -1,0 +1,25 @@
+<?php include_once('includes/header1.php') ?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" type="text/css" href="homestyle.css">
+  <title>Homepage</title>
+</head>
+<body>
+  <div class="wrap">
+    <img id="jump" src="images/home.png" width="450px">
+  </div>
+    <h1>PLACEMENT <br> <span>MANAGEMENT </span> <br> SYSTEM</h1>
+  <div class="para">
+   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi corrupti quam ratione a tempora! Iusto accusantium facere cumque eos vero, consectetur quibusdam omnis libero dolor porro! Suscipit, harum! Laborum, atque!
+   Commodi mollitia aliquid, aperiam voluptatum ratione neque et nemo iste quasi architecto earum illo nihil magni excepturi, nostrum voluptates, ipsa quod fugiat impedit tenetur nobis repellat minus! Eligendi, vel eaque.
+   Explicabo placeat debitis tenetur quo alias unde, rem voluptatum quae quam facilis voluptas necessitatibus consequatur delectus odit labore provident. Culpa quae necessitatibus facere eum sed quibusdam consequuntur, eius illo quisquam?
+   Error hic quasi repellendus officiis quas ea autem dicta consequuntur, odit velit vero ullam labore ducimus non cupiditate iure adipisci consectetur voluptatem sapiente iusto quaerat earum! Sint voluptatibus ab asperiores.
+   Voluptate ullam velit, eum magnam a inventore omnis maiores voluptas nemo explicabo illo suscipit sapiente fuga blanditiis quidem unde ipsum ipsa. Minus accusantium ducimus quisquam repudiandae. Suscipit eius laudantium minus.
+   Quam, sint. Quis, eaque ducimus molestias ullam consequuntur dolor quae labore fugit tempore. Velit consequuntur nemo, ducimus explicabo, iste similique.</p>
+  </div>
+</body>
+</html>

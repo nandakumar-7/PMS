@@ -1,0 +1,21 @@
+#img1 {
+	position: absolute;
+	height: 100vh;
+	width: 100%;
+	position: fixed;
+}
+#img1,.content {
+	position: absolute;	
+}
+form{
+	margin-left: 120px;
+}
+button {
+	background: #514DC0;
+}
+#img2 {
+	z-index: 0;
+}
+a:hover {
+	text-decoration: none;
+}

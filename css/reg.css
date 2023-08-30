@@ -1,0 +1,25 @@
+body {
+	background: #202020;
+}
+#img1 {
+	/*position: absolute;*/
+	height: 320vh;
+	width: 100%;
+	position: fixed;
+	margin-top: -20px;
+}
+#img1,.content {
+	position: absolute;	
+}
+form{
+	margin-left: 120px;
+}
+button {
+	background: #514DC0;
+}
+h1 {
+	text-align: center;
+}
+span {
+	color: #85DC2A;
+}

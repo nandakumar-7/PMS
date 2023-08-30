@@ -1,0 +1,58 @@
+#img1 {
+	/*position: absolute;*/
+	height: 110vh;
+	width: 100%;
+	position: fixed;
+	margin-top: -20px;
+}
+#img1,.content {
+	position: absolute;	
+}
+form{
+	margin-left: 120px;
+}
+button {
+	background: #514DC0;
+}
+
+/*textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+select[class="form-control"]:focus,
+.uneditable-input:focus {   
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(126, 239, 104, 0.6);
+  outline: 0 none;
+  border-radius: 0px;
+}*/
+textarea,
+input[type="text"],
+input[type="password"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="date"],
+input[type="month"],
+input[type="time"],
+input[type="week"],
+input[type="number"],
+input[type="email"],
+input[type="url"],
+input[type="search"],
+input[type="tel"],
+input[type="color"],
+select[class="form-control"],
+.uneditable-input {
+	border-color: lightgrey;
+	border-radius: 0px;
+}

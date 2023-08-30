@@ -1,0 +1,176 @@
+* {
+  font-family: poppins;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #202020;
+  color: grey;
+}
+
+body .navul a {
+  color: white;
+}
+
+body .design {
+  position: fixed;
+  background: -webkit-gradient(linear, left top, left bottom, from(#F44275), to(#FB4F39));
+  background: linear-gradient(#F44275, #FB4F39);
+  height: 850px;
+  width: 400px;
+  border-bottom-left-radius: 1000px;
+  border-bottom-right-radius: 1000px;
+  margin-top: -170px;
+  margin-left: 900px;
+  -webkit-transform: rotate(35deg);
+          transform: rotate(35deg);
+}
+
+body input {
+  outline: none;
+  background: #414141;
+  padding: 20px 20px;
+  border: none;
+  width: 240px;
+  height: 30px;
+  color: grey;
+}
+
+body #jump, body #error {
+  position: absolute;
+  margin-left: 57%;
+  margin-top: 25px;
+}
+
+body #error {
+  margin-top: 120px;
+  display: none;
+}
+
+body #center, body .errormsg {
+  position: absolute;
+  top: 50%;
+  left: 26%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+body .errormsg {
+  display: none;
+}
+
+body p {
+  font-weight: bold;
+  font-size: 13px;
+}
+
+body button {
+  padding: 8px 10px;
+  width: 238px;
+  border: 3px solid #414141;
+  background: none;
+  color: grey;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 5px;
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+}
+
+body h3 {
+  margin-left: -50px;
+  margin-bottom: 30px;
+}
+
+body #logo {
+  margin-top: 10px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+body nav {
+  position: absolute;
+  top: 0px;
+  left: 50%;
+}
+
+body ul {
+  font-size: 14px;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body li {
+  margin-left: 20px;
+}
+
+body a {
+  text-decoration: none;
+  color: grey;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+body a:hover {
+  color: #F44275;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+body a.active {
+  font-weight: bold;
+}
+
+body button:hover {
+  background: #F44275;
+  color: white;
+  border-color: #F44275;
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+}
+
+body a.btn {
+  font-size: 13px;
+  position: relative;
+  font-weight: bold;
+  margin-top: -5px;
+  margin-left: 15px;
+  border: 1px solid #F44275;
+  color: #F44275;
+  padding: 5px 10px;
+  border-radius: 50px;
+  -webkit-transition: 0.4s ease-in;
+  transition: 0.4s ease-in;
+}
+
+body a.btn:hover {
+  background: #F44275;
+  -webkit-transition: 0.4s ease-in;
+  transition: 0.4s ease-in;
+  color: #202020;
+}
+
+body .content {
+  margin-left: -15px;
+}
+
+body .content .cen .input2, body .content .cen .input4, body .content .cen .input6 {
+  margin-left: 170px;
+  margin-top: -85px;
+}
+
+body .content .cen input {
+  width: 140px;
+}
+
+body .content .cen button {
+  margin-left: 28px;
+}
+
+body .content .cen .input3 input {
+  width: 310px;
+}
+/*# sourceMappingURL=style.css.map */

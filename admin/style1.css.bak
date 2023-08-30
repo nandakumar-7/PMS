@@ -1,0 +1,99 @@
+* {
+	font-family: poppins;
+}
+body {
+	margin: 0;
+	padding: 0;
+	background: #202020;
+	color: grey;
+}
+.design {
+  position: fixed;
+  background: linear-gradient(#4842AA, #9D97FF);
+  height: 850px;
+  width: 400px;
+  border-bottom-left-radius: 1000px;
+  border-bottom-right-radius: 1000px;
+  margin-top: -170px;
+  margin-left: 900px;
+  transform: rotate(35deg);
+}
+input {
+	outline: none;
+	background: #373737;
+	padding: 5px 10px;
+	border: none;
+	width: 220px;
+	height: 30px;
+	color: grey;
+}
+#jump {
+	position: absolute;
+	margin-left: 59%;
+	margin-top: 135px;
+}
+#center {
+	position: absolute;
+	top: 50%;
+	left: 26%;
+	transform: translate(-50%, -50%);
+}
+p {
+	font-weight: bold;
+	font-size: 13px;
+}
+button {
+	padding: 8px 10px;
+	width: 238px;
+	border: 3px solid #434343;
+	background: none;
+	color: grey;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-top: 5px;
+	transition: 0.4s ease;
+}
+h3 {
+	margin-left: -50px;
+	margin-bottom: 30px;
+}
+#logo {
+	margin-top: 10px;
+	margin-left: 10px;
+	cursor: pointer;
+}
+nav {
+	position: absolute;
+	top: 0px;
+	left: 40%;
+}
+ul {
+	list-style: none;
+	display: flex;
+}
+li {
+	margin-left: 20px;
+}
+a {
+	text-decoration: none;
+	color: grey;
+}
+a.active {
+	font-weight: bold;
+}
+button:hover {
+	background: #434343;
+	color: white;
+	transition: 0.4s ease;
+}
+a.btn {
+	font-size: 13px;
+	position: relative;
+	/*font-weight: bold;*/
+	margin-top: -2px;
+	margin-left: 15px;
+	background: linear-gradient(blue, aqua);
+	color: white;
+	padding: 5px 10px;
+	border-radius: 50px;
+}

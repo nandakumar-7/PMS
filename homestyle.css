@@ -1,0 +1,125 @@
+* {
+  font-family: montserrat;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background: #ebebeb;
+  color: grey;
+}
+
+body .wrap {
+  height: 200vh;
+  width: 100vw;
+  background: url("images/mybg.png");
+  background-size: cover;
+}
+
+body h1 {
+  position: absolute;
+  margin-top: -1100px;
+  margin-left: 110px;
+  font-size: 47px;
+  text-align: center;
+}
+
+body h1 span {
+  color: #95F62F;
+}
+
+body .para {
+  margin-top: -497px;
+}
+
+body .para p {
+  padding: 100px 50px;
+}
+
+body img {
+  position: absolute;
+}
+
+body #clip {
+  width: 1854.47px;
+  height: 2089.6px;
+  margin-top: -450px;
+  margin-left: -8%;
+  position: absolute;
+}
+
+body #jump {
+  margin-left: 61%;
+  margin-top: 200px;
+}
+
+body #logo {
+  margin-top: 10px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+body nav {
+  position: absolute;
+  top: 0px;
+  left: 28%;
+}
+
+body ul {
+  font-size: 14px;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body li {
+  margin-left: 20px;
+}
+
+body a {
+  text-decoration: none;
+  color: grey;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+body a:hover {
+  color: #95F62F;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+body a.active {
+  font-weight: bold;
+}
+
+body button:hover {
+  background: #414141;
+  color: white;
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+}
+
+body a.btn {
+  font-size: 13px;
+  position: relative;
+  font-weight: bold;
+  margin-top: -5px;
+  margin-left: 15px;
+  border: 1px solid #95F62F;
+  color: #95F62F;
+  padding: 5px 10px;
+  border-radius: 50px;
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+}
+
+body a.btn:hover {
+  background: #95F62F;
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+  color: #ebebeb;
+}
+/*# sourceMappingURL=homestyle.css.map */

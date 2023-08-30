@@ -1,0 +1,129 @@
+* {
+	font-family: poppins;
+  }
+  
+  body {
+	margin: 0;
+	padding: 0;
+	background: #202020;
+	color: grey;
+  }
+  
+  body .design {
+	position: fixed;
+	background: -webkit-gradient(linear, left top, left bottom, from(#3004FF), to(#039DFF));
+	background: linear-gradient(#3004FF, #039DFF);
+	height: 850px;
+	width: 400px;
+	border-bottom-left-radius: 1000px;
+	border-bottom-right-radius: 1000px;
+	margin-top: -170px;
+	margin-left: 900px;
+	-webkit-transform: rotate(35deg);
+			transform: rotate(35deg);
+  }
+  
+  body input {
+	outline: none;
+	background: #414141;
+	padding: 20px 10px;
+	border: none;
+	width: 240px;
+	height: 30px;
+	color: grey;
+  }
+  
+  body #jump {
+	position: absolute;
+	margin-left: 60%;
+	margin-top: 70px;
+  }
+  
+  body #center {
+	position: absolute;
+	top: 50%;
+	left: 26%;
+	-webkit-transform: translate(-50%, -50%);
+			transform: translate(-50%, -50%);
+  }
+  
+  body p {
+	font-weight: bold;
+	font-size: 13px;
+  }
+  
+  body button {
+	padding: 8px 10px;
+	width: 238px;
+	border: 3px solid #414141;
+	background: none;
+	color: grey;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-top: 5px;
+	-webkit-transition: 0.4s ease;
+	transition: 0.4s ease;
+  }
+  
+  body h3 {
+	margin-left: -50px;
+	margin-bottom: 30px;
+  }
+  
+  body #logo {
+	margin-top: 10px;
+	margin-left: 10px;
+	cursor: pointer;
+  }
+  
+  body nav {
+	position: absolute;
+	top: 0px;
+	left: 45%;
+  }
+  
+  body ul {
+	list-style: none;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+  }
+  
+  body li {
+	margin-left: 20px;
+  }
+  
+  body a {
+	text-decoration: none;
+	color: grey;
+  }
+  
+  body a.active {
+	font-weight: bold;
+  }
+  
+  body button:hover {
+	background: #414141;
+	color: white;
+	-webkit-transition: 0.4s ease;
+	transition: 0.4s ease;
+  }
+  
+  body a.btn {
+	font-size: 13px;
+	position: relative;
+	font-weight: bold;
+	margin-top: -2px;
+	margin-left: 15px;
+	background: -webkit-gradient(linear, left top, left bottom, from(#3004FF), to(#039DFF));
+	background: linear-gradient(#3004FF, #039DFF);
+	color: white;
+	padding: 5px 10px;
+	border-radius: 50px;
+  }
+  
+  body a.btn:hover {
+	-webkit-filter: opacity(80%);
+			filter: opacity(80%);
+  }
+  /*# sourceMappingURL=style.css.map */

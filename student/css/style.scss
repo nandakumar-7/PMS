@@ -1,0 +1,135 @@
+$myfont: poppins;
+$colors:(
+    primary: #3004FF,
+    secondary: #039DFF,
+    backcolor: #202020,
+    f-color: grey,
+    s-color: white,
+    s-back: #414141
+);
+@function color($cname) {
+    @return map-get($colors, $cname);
+}
+* {
+	font-family: $myfont;
+}
+body {
+	margin: 0;
+	padding: 0;
+	background: color(backcolor);
+    color: color(f-color);
+    .design {
+        position: fixed;
+        background: linear-gradient(color(primary), color(secondary));
+        height: 850px;
+        width: 400px;
+        border-bottom-left-radius: 1000px;
+        border-bottom-right-radius: 1000px;
+        margin-top: -170px;
+        margin-left: 900px;
+        transform: rotate(35deg);
+      }
+      input, select {
+        outline: none;
+        background: color(s-back);
+        padding: 20px 20px;
+        border: none;
+        width: 240px;
+        height: 30px;
+        color: color(f-color);
+    }
+    select {
+        color: white;
+    }
+    #jump, #error {
+        position: absolute;
+        margin-left: 60%;
+        margin-top: 70px;
+    }
+    #error {
+        margin-top: 120px;
+        display: none;
+    }
+    #center, .errormsg {
+        position: absolute;
+        top: 50%;
+        left: 26%;
+        transform: translate(-50%, -50%);
+    }
+    .errormsg {
+        display: none;
+    }
+    p {
+        font-weight: bold;
+        font-size: 13px;
+    }
+    button {
+        padding: 8px 10px;
+        width: 238px;
+        border: 3px solid color(s-back);
+        background: none;
+        color: color(f-color);
+        font-weight: bold;
+        text-transform: uppercase;
+        margin-top: 5px;
+        transition: 0.4s ease;
+    }
+    h3 {
+        margin-left: -50px;
+        margin-bottom: 30px;
+    }
+    #logo {
+        margin-top: 10px;
+        margin-left: 10px;
+        cursor: pointer;
+    }
+    nav {
+        position: absolute;
+        top: 0px;
+        left: 50%;
+    }
+    ul {
+        font-size: 14px;
+        list-style: none;
+        display: flex;
+    }
+    li {
+        margin-left: 20px;
+    }
+    a {
+        text-decoration: none;
+        color: color(f-color);
+        transition: 0.3s ease;
+    }
+    a:hover {
+        color: color(secondary);
+        transition: 0.3s ease;
+    }
+    a.active {
+        font-weight: bold;
+    }
+    button:hover {
+        background: color(secondary);
+        color: color(s-color);
+        border-color: color(secondary);
+        transition: 0.4s ease;
+    }
+    a.btn {
+        font-size: 13px;
+        position: relative;
+        font-weight: bold;
+        margin-top: -5px;
+        margin-left: 15px;
+        border: 1px solid color(secondary);
+        // background: linear-gradient(color(primary), color(secondary));
+        color: color(secondary);
+        padding: 5px 10px;
+        border-radius: 50px;
+        transition: 0.4s ease-in;
+    }
+    a.btn:hover {
+        background: color(secondary);
+        transition: 0.4s ease-in;
+        color: color(backcolor);
+    }
+}
